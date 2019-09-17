@@ -1,0 +1,23 @@
+// Here you can add other styles
+.sidebar {
+  .nav-dropdown-items {
+    margin-left: 20px;
+  }
+}
+
+.sidebar-minimized {
+  .sidebar {
+    .nav-dropdown-items {
+      margin-left: 0;
+    }
+  }
+}
+
+.custom-hide {
+  display: none;
+}
+
+.centerBtns {
+  text-align: center;
+  margin: 0 auto;
+}

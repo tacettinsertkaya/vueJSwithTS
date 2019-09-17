@@ -1,0 +1,64 @@
+﻿.pager-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .align {
+    margin-top: 10px;    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0 10px;
+      height: 32px;
+      min-width: 32px;
+      margin: 3px;
+      cursor: pointer;
+
+      background-color: #f4f4f5;
+      color: #606266;
+      border-radius: 2px;
+      font-weight: 700;
+
+      &.active {
+        background-color: #409eff;
+        color: #fff;
+      }
+
+      &.more,
+      &.info {
+        cursor: initial;
+      }
+    }
+
+    .pager-size {
+      padding: 0;
+    }
+
+    select {
+      height: 100%;
+      border: 1px solid #dcdfe6;
+    }
+
+    .pager-jump {
+      display: flex;
+      padding: 0;
+      border: 0;
+
+      div {
+        margin: 0;
+      }
+
+      input {
+        height: 100%;
+        text-align: right;
+        border: 1px solid #dcdfe6;
+      }
+    }
+  }
+}

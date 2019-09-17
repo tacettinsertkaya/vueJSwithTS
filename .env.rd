@@ -1,0 +1,7 @@
+NODE_ENV = 'production'
+VUE_APP_ENV = 'RD'
+VUE_APP_MGT_API = 'http://api.daheng3d.com'
+VUE_APP_MD5_HASH = 'd8*dfkHU@|fjCdnf4z;Kd(dcn1#fnvn24@fkvm,Mz'
+VUE_APP_USERNAME = ''
+VUE_APP_PASSWORD = ''
+BASE_URL = 'http://api.daheng3d.com'
