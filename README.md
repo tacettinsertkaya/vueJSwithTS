@@ -1,4 +1,4 @@
-# bestpay
+
 
 ## Project setup
 ```
